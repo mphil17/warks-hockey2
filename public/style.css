@@ -16,10 +16,10 @@ body {
 }
 
 .button-style {
-    border: none;
-    border-radius: 50%;
-    background-color: #0b0547;
-    margin: 0px 10px;
+    border-radius: 5px;
+    background-color: #8f1d1d;
+    color: #f3f1f1;
+    height: 30px;
 }
 
 .button-st:active {
@@ -38,12 +38,17 @@ button:focus {
 
 .section-2 {
     background-color: #f3f1f1;
-    height: 70vh;
+    height: 50vh;
 }
 
 .section-3 {
     background-color: #8f1d1d;
     height: 15vh;
+}
+
+.img-section {
+    background: url("/media/hockey-web.png") no-repeat fixed;
+    height: 20vh;
 }
 
 .font-custom {
