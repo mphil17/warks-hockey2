@@ -56,6 +56,16 @@ button:focus {
     font-size: 15vw;
 }
 
+.main-sect-font {
+    color: rgb(73, 73, 73);
+    font-size: x-large;
+}
+
+.main-sect-font2 {
+    color: rgb(73, 73, 73);
+    font-size: large;
+}
+
 .face-hide {
     display: none;
 }
