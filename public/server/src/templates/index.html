@@ -1,0 +1,51 @@
+{% extends "base.html" %} {% block content %}
+
+<!--Navbar using bootstrap-->
+<section class="section-1">
+    <div class="row">
+        <div class="col-10 d-flex justify-content-end">
+            <h1 style="color: aliceblue; font-size: 5vw; padding-right: 20px;">Warwickshire Hockey U13</h1>
+        </div>
+        <div class="col-md-2 d-flex justify-content-end" style="padding-top: 50px;">
+            <button class="button-style">Login</button>
+            <a href="{{ url_for ('signup') }}"><button class="button-style">Sign Up</button></a>
+        </div>
+    </div>
+</section>
+
+<section class="section-2">
+    <!--Navbar-->
+    <div class="row">
+        <nav class="col-2 navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="main-sect-font" id="menu-cross">Menu</span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="{{ url_for ('index') }}">
+                        <h4 class="main-sect-font2">Home</h4> <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">
+                        <h4 class="main-sect-font2">Upcoming Events</h4>
+                    </a>
+                    <a class="nav-item nav-link" href="#" id="userInfo">
+                        <h4 class="main-sect-font2">Results</h4>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="row" style="padding-top: 10px;">
+        <div class="col-12 d-flex justify-content-center">
+            <p class="main-sect-font">Hello and Welcome to the website</p>
+        </div>
+    </div>
+</section>
+<!--Image-->
+<section class="img-section">
+
+</section>
+<section class="section-3">
+
+</section>
+
+{% endblock %}

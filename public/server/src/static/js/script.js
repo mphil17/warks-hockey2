@@ -57,6 +57,8 @@ function signUp() {
     promise.catch(e => alert(e.message));
 
     alert("Signed up");
+    email.style.display = "none";
+    password.style.display = "none";
 }
 
 function signOut() {
